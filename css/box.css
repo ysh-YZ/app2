@@ -1,0 +1,50 @@
+@import url(base.css);
+.box{
+    width: 4.07rem;
+    height: 4.60rem;
+    margin-top: 2.45rem;
+    margin-left: 1.77rem;
+    border: 2px solid #dadbdc;
+    background: #e2e2e2;
+}
+.box_box{
+    width: 4.07rem;
+    height: 4.60rem;
+}
+.box_yuan{
+    width: 0.76rem;
+    height: 0.14rem;
+    /*background: #ffc299;*/
+    position: absolute;
+    top:8.34rem;
+    left: 3.37rem;
+}
+.box_yuan ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.box_yuan ul li{
+    width: 0.12rem;
+    height: 0.12rem;
+    border-radius: 50%;
+    background: #0ff31a;
+}
+.box_yuan ul li:nth-child(1),.box_yuan ul li:nth-child(5){
+    background: #90d8be;
+}
+.box_yuan ul li:nth-child(2),.box_yuan ul li:nth-child(4){
+background: #58cca2;
+}
+.wz{
+    width: 100%;
+    height: 0.72rem;
+    /*background: #ffc299;*/
+    position: absolute;
+    top: 8.46rem;
+    line-height: 0.72rem;
+    text-align: center;
+    color: #ababab;
+    font-size: 0.22rem;
+    font-family: 苹方;
+}
