@@ -38,6 +38,8 @@
 }
 .robot_button {
 	display: block;
-	width: 4.35rem;
+	/*width: 4.35rem;*/
 	height: 0.7rem;
+	/*margin-left: 1.65rem;*/
+
 }

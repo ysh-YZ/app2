@@ -6,10 +6,61 @@
     margin-left: 1.77rem;
     border: 2px solid #dadbdc;
     background: #e2e2e2;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    padding: 0.08rem;
+    animation: color 2s 1s 1  forwards;
+
+}
+@keyframes color {
+    0%{
+        background: #e2e2e2;
+
+ }
+    50%{
+        background-image: url("http://wenwen.soso.com/p/20140725/20140725194243-1030162427.jpg");
+        background-size:4.07rem  4.60rem;
+
+    }
+    100%{
+        background-image: url("http://img3.imgtn.bdimg.com/it/u=2287452056,4155117557&fm=11&gp=0.jpg");
+        background-size:4.07rem  4.60rem;
+    }
 }
 .box_box{
     width: 4.07rem;
     height: 4.60rem;
+
+}
+.item1{
+    width: 0.4rem;
+    height: 0.4rem;
+    border-top: 2px solid#34d179;
+    border-left: 2px solid#2bd171;
+}
+.item2{
+    width: 0.4rem;
+    height: 0.4rem;
+    border-top: 2px solid#2bd171;
+    border-right: 2px solid#2bd171;
+}
+.item3{
+    width: 0.4rem;
+    height: 0.4rem;
+    border-bottom: 2px solid#2bd171;
+    border-left: 2px solid#2bd171;
+}
+.item4{
+    width: 0.4rem;
+    height: 0.4rem;
+    border-bottom: 2px solid#2bd171;
+    border-right: 2px solid#2bd171;
+}
+.column {
+    flex-basis: 100%;
+    display: flex;
+    justify-content: space-between;
 }
 .box_yuan{
     width: 0.76rem;
@@ -29,6 +80,7 @@
     height: 0.12rem;
     border-radius: 50%;
     background: #0ff31a;
+
 }
 .box_yuan ul li:nth-child(1),.box_yuan ul li:nth-child(5){
     background: #90d8be;
